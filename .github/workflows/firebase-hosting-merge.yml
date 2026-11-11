@@ -15,6 +15,6 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_TEAM_RSAA_CCEEF }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_TEAM_RSAA_3EE3E }}
           channelId: live
-          projectId: team-rsaa-cceef
+          projectId: team-rsaa-3ee3e
