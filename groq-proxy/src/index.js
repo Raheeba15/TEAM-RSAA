@@ -6,8 +6,8 @@ const GROQ_CHAT_URL = "https://api.groq.com/openai/v1/chat/completions";
 
 // Only these sites may call the proxy from a browser
 const ALLOWED_ORIGINS = [
-  "https://team-rsaa-ec75b.web.app",
-  "https://team-rsaa-ec75b.firebaseapp.com",
+  "https://team-rsaa-3ee3e.web.app",
+  "https://team-rsaa-3ee3e.firebaseapp.com",
 ];
 // Local dev server (any port), on this PC or the LAN
 const DEV_ORIGIN = /^https:\/\/(localhost|127\.0\.0\.1|(10|172|192)\.[0-9.]+)(:\d+)?$/;
